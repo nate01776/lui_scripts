@@ -73,10 +73,19 @@
         <con:jmsPropertyConfig/>
         <con:parameters>
           <con:entry key="inputOne" value="${DataSource#randomInputOne}"/>
+          <con:entry key="user_key" value=""/>
           <con:entry key="inputTwo" value="${DataSource#randomInputTwo}"/>
         </con:parameters>
+        <con:parameterOrder>
+          <con:entry>inputOne</con:entry>
+          <con:entry>inputTwo</con:entry>
+          <con:entry>user_key</con:entry>
+        </con:parameterOrder>
         <con:environmentSpec>
           <con:entry environmentId="0347021d-92b7-47e4-9379-4797d4a703c9">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="19ef152b-6806-465d-be73-869bfad44f62">
             <con:authProfile>Inherit From Parent</con:authProfile>
           </con:entry>
         </con:environmentSpec>
@@ -105,6 +114,9 @@
   </con:breakPoints>
   <con:environmentSpec>
     <con:entry environmentId="0347021d-92b7-47e4-9379-4797d4a703c9">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="19ef152b-6806-465d-be73-869bfad44f62">
       <con:authProfile>Inherit From Parent</con:authProfile>
     </con:entry>
   </con:environmentSpec>

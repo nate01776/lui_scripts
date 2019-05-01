@@ -4,6 +4,31 @@
     <con:setting id="soapUIObjectSourceId">c8660cce-7780-467e-b857-51db06f35d30</con:setting>
     <con:setting id="soapUIObjectSourceType">soapUIObjectSourceType_TestCase</con:setting>
     <con:setting id="c3815482-1501-44e2-8d0b-be0d9b6cb84cfileName">Load-Test-1</con:setting>
+    <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.LoadUITestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Test Duration Limit" value=""/>
+  <con:entry key="" value=""/>
+  <con:entry key="Abort Requests" value=""/>
+  <con:entry key="Report Format" value="Default"/>
+  <con:entry key="Local Mode" value="false"/>
+  <con:entry key="Agents" value=""/>
+  <con:entry key="JUnit-Style Results" value="false"/>
+  <con:entry key="Arriving/Base VUs" value=""/>
+  <con:entry key="Statistics" value=""/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Failure Limit" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="SelectedStatistics" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Target Number Limit" value=""/>
+  <con:entry key="Environment" value="Default environment"/>
+  <con:entry key="ExportStatistics" value=""/>
+  <con:entry key="Root Folder" value="C:\Users\nathan.wright\Desktop"/>
+  <con:entry key="Group results" value="false"/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Create Reports" value="true"/>
+  <con:entry key="Save Project" value="false"/>
+  <con:entry key="LoadUITest" value="Load Test 1"/>
+</xml-fragment>]]></con:setting>
   </con:settings>
   <con1:loadui-project id="63bcfb9c-685f-4eb2-8fd7-e325f485e29c" label="Load Test 1" xmlns:con1="http://eviware.com/loadui/config">
     <con1:properties>

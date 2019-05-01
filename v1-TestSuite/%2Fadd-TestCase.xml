@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="c8660cce-7780-467e-b857-51db06f35d30" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="/add TestCase" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase id="c8660cce-7780-467e-b857-51db06f35d30" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="/add TestCase" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword="" xmlns:con="http://eviware.com/soapui/config">
   <con:description>The test case generated for the REST resource [/add] located at [/add]</con:description>
   <con:settings>
     <con:setting id="c8660cce-7780-467e-b857-51db06f35d30fileName">%2Fadd-TestCase</con:setting>
@@ -83,10 +83,19 @@
         <con:jmsPropertyConfig/>
         <con:parameters>
           <con:entry key="inputOne" value="${DataSource#randomInputOne}"/>
+          <con:entry key="user_key" value=""/>
           <con:entry key="inputTwo" value="${DataSource#randomInputTwo}"/>
         </con:parameters>
+        <con:parameterOrder>
+          <con:entry>inputOne</con:entry>
+          <con:entry>inputTwo</con:entry>
+          <con:entry>user_key</con:entry>
+        </con:parameterOrder>
         <con:environmentSpec>
           <con:entry environmentId="0347021d-92b7-47e4-9379-4797d4a703c9">
+            <con:authProfile>Inherit From Parent</con:authProfile>
+          </con:entry>
+          <con:entry environmentId="19ef152b-6806-465d-be73-869bfad44f62">
             <con:authProfile>Inherit From Parent</con:authProfile>
           </con:entry>
         </con:environmentSpec>
@@ -115,6 +124,9 @@
   </con:breakPoints>
   <con:environmentSpec>
     <con:entry environmentId="0347021d-92b7-47e4-9379-4797d4a703c9">
+      <con:authProfile>Inherit From Parent</con:authProfile>
+    </con:entry>
+    <con:entry environmentId="19ef152b-6806-465d-be73-869bfad44f62">
       <con:authProfile>Inherit From Parent</con:authProfile>
     </con:entry>
   </con:environmentSpec>
