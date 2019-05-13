@@ -75,6 +75,24 @@
             <regEx>^[0-9]*$</regEx>
           </con:configuration>
         </con:assertion>
+        <con:assertion type="MessageContentAssertion" id="273db2e7-23da-43b0-b11b-d8db3f8ac376" name="Message Content Assertion 2">
+          <con:configuration xsi:type="con:MessageContentAssertion">
+            <con:elements>
+              <con:xpath>declare namespace ns1='http://18.237.105.202/add';
+//ns1:Response[1]/ns1:result[1]</con:xpath>
+              <con:element>result</con:element>
+              <con:type xsi:nil="true"/>
+              <con:operator>exists</con:operator>
+              <con:enabled>true</con:enabled>
+              <con:expectedValue>77</con:expectedValue>
+              <con:hasValue>false</con:hasValue>
+              <con:numberType>false</con:numberType>
+            </con:elements>
+            <con:originalMessage>&lt;Response xmlns="http://18.237.105.202/add">
+   &lt;result>77&lt;/result>
+&lt;/Response></con:originalMessage>
+          </con:configuration>
+        </con:assertion>
         <con:credentials>
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
@@ -83,7 +101,6 @@
         <con:jmsPropertyConfig/>
         <con:parameters>
           <con:entry key="inputOne" value="${DataSource#randomInputOne}"/>
-          <con:entry key="user_key" value=""/>
           <con:entry key="inputTwo" value="${DataSource#randomInputTwo}"/>
         </con:parameters>
         <con:parameterOrder>

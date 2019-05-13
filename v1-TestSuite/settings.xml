@@ -3,6 +3,12 @@
   <con:description>The test suite generated for the REST service [Smartbear Calculator]</con:description>
   <con:settings>
     <con:setting id="180c05b5-8277-4752-94b7-b7f82faaeff5fileName">v1-TestSuite</con:setting>
+    <con:setting id="IncludeOverview">true</con:setting>
+    <con:setting id="IncludeResults">true</con:setting>
+    <con:setting id="FlowLayout">false</con:setting>
+    <con:setting id="ErrorDetails">true</con:setting>
+    <con:setting id="IncludeCoverage">true</con:setting>
+    <con:setting id="GeneratableAllureReport@Folder">C:\Users\nathan.wright\Code\integration-tests\allure_reports</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:runType>SEQUENTIAL</con:runType>

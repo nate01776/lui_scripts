@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:restMockService id="83be6769-1828-4618-92cc-d826a15d0fd3" port="8088" path="/" host="localhost" name="Smartbear Calculator Virtual Service v1" routeModeEnabled="true" addUnmatchedOperation="false" routeUnmatchedOperation="false" routeEndpoint="http://34.215.16.155:8050" xmlns:con="http://eviware.com/soapui/config">
+<con:restMockService id="83be6769-1828-4618-92cc-d826a15d0fd3" port="8088" path="/" host="localhost" name="Smartbear Calculator Virtual Service v1" routeModeEnabled="false" addUnmatchedOperation="false" routeUnmatchedOperation="false" routeEndpoint="http://34.215.16.155:8050" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="83be6769-1828-4618-92cc-d826a15d0fd3fileName">Smartbear-Calculator-Virtual-Service-v1</con:setting>
   </con:settings>
